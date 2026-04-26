@@ -10,7 +10,7 @@ on:
       - 'dev-*'
       - 'feat/**'
     paths:
-      - '.github/workflows/demo1.yaml'
+      - '.github/workflows/demo2.yaml'
 jobs:
   deploy:
     runs-on: ubuntu-latest
