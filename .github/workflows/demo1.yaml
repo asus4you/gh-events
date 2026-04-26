@@ -27,3 +27,5 @@ jobs:
         run: npm run build 
       - name: Deploy project 
         run: echo "Deploying the Code..."
+      - name: Echoing Demo1 
+        run: echo "Demo 1 ra macha"
