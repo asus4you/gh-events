@@ -1,14 +1,16 @@
 name: Events Demo 1
 on: 
-  pull_request: # Events 
-    types:   # Activity types 
-      - opened # Activity Types
-  workflow_dispatch: # Events 
-  push: # Events
-    branches:
+  pull_request: 
+    types:
+      - opened
+  workflow_dispatch: 
+  push:
+    branches: 
       - master
       - 'dev-*'
       - 'feat/**'
+    paths:
+      - '.github/workflows/demo1.yaml'
 jobs:
   deploy:
     runs-on: ubuntu-latest
