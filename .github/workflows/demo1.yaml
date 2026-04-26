@@ -9,6 +9,7 @@ on:
       - master
       - 'dev-*'
       - 'feat/**'
+      - 'test'
     paths:
       - '.github/workflows/demo1.yaml'
 jobs:
